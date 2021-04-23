@@ -37,6 +37,6 @@ print("\n\n---RESULTADO---")
 for j in range (len(nomes)):
     print(f"\nAtelta: {nomes[j]}")
     for i in range (5):
-        print(f"Salto {i}: {saltos[(i+(5*j))]}")
+        print(f"Salto {i+1}: {saltos[(i+(5*j))]}")
     
     print(f"Média: {medias[j]}")

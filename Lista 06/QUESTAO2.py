@@ -1,5 +1,6 @@
 textos = []
 condicao = True
+opcoes = ["C","R","U","D","P"]
 
 
 texto = input("Isira um texto: ")
@@ -15,9 +16,10 @@ while condicao:
     print("R - Ler")
     print("U - Modificar")
     print("D - Deletar")
+    print("P - Parar")
     opcao = input("Opção: ")
-    while opcao == "" or (opcao.upper() != 'C' and opcao.upper() != 'R' and opcao.upper() != 'U' and opcao.upper() != 'D'):
-        print("Error")
+    while opcao == "" or not(opcao.upper() in opcoes):
+        print("\n---Error---")
         opcao = input("Opção: ")
 
     #ESCREVER
@@ -60,8 +62,9 @@ while condicao:
         textos.insert(modificar , textos[modificar].replace(palavra,palavraModificar))
         textos.pop(modificar+1)
 
+    
     #RREMOVER
-    else:
+    elif opcao.upper() == "D":
         print("\n\n---REMOVER---")
         for i in range(len(textos)):
             print(f"{i} - {textos[i]}")
@@ -71,4 +74,8 @@ while condicao:
             print("Error - Index Inválido")
             remover = int(input("Qual frase deseja remover? Insira o index da frase: "))
 
-        textos.pop(remover)  
+        textos.pop(remover) 
+
+    #Parar
+    else:
+        condicao = False 

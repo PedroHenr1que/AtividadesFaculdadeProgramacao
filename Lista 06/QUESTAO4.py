@@ -7,6 +7,10 @@ indexNovo = []
 rankNovo = numerosMaisAparecem.copy()
 
 numeros = int(input("Quantos números você vai digitar? "))
+while numeros < 0:
+    print("\nError - A quantidade não pode ser menor que zero")
+    numeros = int(input("Quantos números você vai digitar? "))
+
 
 for i in range (numeros):
     num = int(input(f"Número {i+1}: "))
