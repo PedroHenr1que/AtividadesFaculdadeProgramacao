@@ -1,0 +1,1 @@
+Legal;3,Bonito;2,Amar;3,Felicidade;3,Carinho;3,Sorte;1,Aproveitar;1,Momento;1,Bom;3,Divertido;2,Ruim;-3,Não;-1,Dificil;-2,Mal;-2,Infeliz;-3,Deplorável;-3,Péssimo;-3,Triste;-3,Desagradável;-1,Impossivel;-3,Talvez;0,Mas;0,Como;0,Acaso;0,Provável;0,Possivelmente;0,Porventura;0,Hipoteticamente;0,Supostamente;0,Depende;0

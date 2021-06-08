@@ -1,0 +1,11 @@
+Frase,Palavras Na Fase,Resultado,Classificação
+Bonito é ser feliz e acreditar que a sorte é você quem traz,Bonito;Sorte,3,BOA
+Estou muito feliz pois passei o dia todo fazendo carinho no meu cachorro que por sinal é muito bonito,Carinho;Bonito,5,BOA
+Felicidade é saber aproveitar todos os momentos como se fossem os últimos,Felicidade;Aproveitar;Como,4,BOA
+É preciso amar as pessoas como se não houvesse amanhã,Amar;Como;Não,2,NEUTRA
+O dia de hoje não foi muito legal,Não;Legal,2,NEUTRA
+Talvez minha amiga não vai poder ir ao cinema estou triste mas meus outros amigos vão então irei aproveitar o momento,Talvez;Não;Triste;Mas;Aproveitar;Momento,-2,NEUTRA
+A faculdade está difícil mas não tanto quanto eu esperava talvez fique mais difícil depois,Mas;Não;Talvez,-1,NEUTRA
+Estou me sentindo bastante mal pois estou triste porque meu cachorro morreu,Mal;Triste,-5,RUIM
+Infelizmente não podemos sair pois o tempo está ruim,Não;Ruim,-4,RUIM
+Pelo alagamento a rua da academia está deplorável no dia de hoje,Deplorável,-3,RUIM
